@@ -1,0 +1,16 @@
+.ordenacao{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 2em;
+    margin-bottom: 1.2em;
+}
+.ordenacao__link{
+    text-decoration: none;
+    color: var(--cinza-medio);
+    cursor: pointer;
+}
+.ordenacao__link--active{
+    color: var(--verde-destaque);
+    border-bottom: 1px solid var(--verde-destaque);
+}
